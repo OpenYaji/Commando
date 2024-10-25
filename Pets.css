@@ -1,0 +1,55 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    color: #663399;
+}
+
+.pet-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pet-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pet-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.adoption-form {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.adoption-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.adoption-form button {
+    padding: 10px 20px;
+    background-color: #FF69B4; /* Hot pink */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
